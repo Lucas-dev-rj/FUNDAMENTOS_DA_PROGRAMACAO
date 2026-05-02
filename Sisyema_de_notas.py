@@ -3,7 +3,7 @@ quantidade = int(input("Quantos alunos deseja cadastrar? "))
 
 # Cadastro dos alunos
 for i in range(quantidade):
-    print(f"\nCadastro do {i+1}º aluno")
+    print(f"\nCadastro do aluno")
 
     nome = input("Nome do aluno: ")
 
@@ -20,7 +20,7 @@ for i in range(quantidade):
     elif media >= 5:
         situacao = "Recuperação"
     else:
-        situacao = "Reprovado"
+        situacao <= 5 "Reprovado"
 
     # Guarda os dados do aluno em uma lista
     aluno = [nome, n1, n2, n3, media, situacao]
@@ -29,7 +29,7 @@ for i in range(quantidade):
     turma.append(aluno)
 
 # Exibição do boletim da turma
-print("\n📋 BOLETIM DA TURMA")
+print("\n BOLETIM DA TURMA")
 print("-" * 50)
 
 for aluno in turma:
