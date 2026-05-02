@@ -1,4 +1,4 @@
-# Pergunta quantos alunos serão cadastrados
+# Quantidade de alunos que serão cadastrados
 quantidade = int(input("Quantos alunos deseja cadastrar? "))
 
 # Cadastro dos alunos
