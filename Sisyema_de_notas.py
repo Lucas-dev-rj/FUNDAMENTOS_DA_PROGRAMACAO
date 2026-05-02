@@ -1,6 +1,3 @@
-# Lista de todos os alunos
-turma = []
-
 # Pergunta quantos alunos serão cadastrados
 quantidade = int(input("Quantos alunos deseja cadastrar? "))
 
